@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- ▼ 사이트 제목 (브라우저 탭에 표시됨) -->
+  <title>고요한 기록</title>
+  <meta name="description" content="천천히 쓰는 개인 블로그" />
+
+  <!-- 세리프(Newsreader) + 본문(Inter) 폰트 로드 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+
+    <!-- ▼▼▼ 사이트 이름 / 한 줄 소개 — 여기를 본인 것으로 바꾸세요 ▼▼▼ -->
+    <header>
+      <h1 class="site-name"><a href="index.html">고요한 기록</a></h1>
+      <p class="tagline">생각을 천천히 적어두는 곳. 기술, 일상, 그리고 읽은 것들.</p>
+    </header>
+    <!-- ▲▲▲ 사이트 이름 / 소개 끝 ▲▲▲ -->
+
+    <!-- ▼▼▼ 글 목록 — 글을 추가하려면 <li> 한 줄을 복사해서 붙여넣으세요 ▼▼▼
+         href = 실제 글 파일 경로 / post-title = 제목 / post-date = 날짜 -->
+    <main>
+      <ul class="posts">
+        <li>
+          <a href="posts/2026-06-01-start.html">
+            <span class="post-title">블로그를 다시 시작하며</span>
+            <span class="post-date">2026. 06. 01.</span>
+          </a>
+        </li>
+        <li>
+          <a href="posts/2026-05-20-minimalism.html">
+            <span class="post-title">미니멀하게 쓴다는 것</span>
+            <span class="post-date">2026. 05. 20.</span>
+          </a>
+        </li>
+        <li>
+          <a href="posts/2026-05-08-tools.html">
+            <span class="post-title">요즘 쓰는 도구들</span>
+            <span class="post-date">2026. 05. 08.</span>
+          </a>
+        </li>
+      </ul>
+    </main>
+    <!-- ▲▲▲ 글 목록 끝 ▲▲▲ -->
+
+    <!-- ▼▼▼ 하단 SNS 링크 — href를 본인 계정 주소로 바꾸세요 ▼▼▼ -->
+    <footer class="footer">
+      <a href="https://github.com/your-id" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://x.com/your-id" target="_blank" rel="noopener">X</a>
+      <a href="https://instagram.com/your-id" target="_blank" rel="noopener">Instagram</a>
+      <a href="mailto:you@example.com">Email</a>
+    </footer>
+    <!-- ▲▲▲ SNS 링크 끝 ▲▲▲ -->
+
+  </div>
+</body>
+</html>
